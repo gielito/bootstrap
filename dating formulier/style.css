@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(204, 116, 160);
+}
+.pink{
+
+  background-color: rgb(204, 116, 160);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff5100e5;
+  border-color: #ff6600;
+}
