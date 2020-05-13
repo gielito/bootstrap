@@ -13,12 +13,12 @@
   <title>Bootstrap Theme</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
   <!-- START HERE -->
 
 
 <!-- NAV START-->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a href="index.html" class="navbar-brand">looplab</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="navbarCollapse">
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#home-head-section" class="nav-link">home</a>
+              <a href="#home" class="nav-link">home</a>
             </li>
             <li class="nav-item">
               <a href="#explore-head-section" class="nav-link">explore</a>
@@ -134,7 +134,7 @@
         <img src="img/explore-section1.jpg" alt="explore" class="img-fluid mb-3 rounded-circle">
       </div>
       <div class="col-md-6">
-            <h3>explore &connect!</h3>
+            <h3>Explore & connect!</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere impedit quo ducimus odit reiciendis saepe cumque a nesciunt cupiditate?</p>
 
             <div class="d-flex">
@@ -161,8 +161,165 @@
     </div>
   </div>
 </section>
+<!-- END EXPLORE section -->
 
 
+<!-- CREATE HEAD -->
+
+<section id="create-head-section" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center py-5"><h1 class="display-4">Create</h1>
+          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ex autem provident facere qui dolorum praesentium inventore veniam cumque molestias!</p>
+          <a href="#" class="btn btn-outline-light">Find out more</a>
+        </div>  
+    </div>
+  </div>
+</section>
+
+
+<!-- CREATE section -->
+<section id="create-section" class="py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 order-2">
+      <img src="img/create-section1.jpg" alt="explore" class="img-fluid mb-3 rounded-circle">
+    </div>
+    <div class="col-md-6 order-1">
+          <h3>Create your passion!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere impedit quo ducimus odit reiciendis saepe cumque a nesciunt cupiditate?</p>
+
+          <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis placeat nam obcaecati ducimus quae. Error.
+              </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis placeat nam obcaecati ducimus quae. Error.
+            </div>
+        </div>
+
+
+
+    </div>
+  </div>
+</div>
+</section>
+<!-- END CREATE section -->
+
+
+<!-- SHARE  HEAD -->
+
+<section id="share-head-section" class="bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center py-5"><h1 class="display-4">Share</h1>
+          <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut ex autem provident facere qui dolorum praesentium inventore veniam cumque molestias!</p>
+          <a href="#" class="btn btn-outline-light">Find out more</a>
+        </div>  
+    </div>
+  </div>
+</section>
+
+
+<!-- SHARE  section -->
+<section id="share-section" class="bg-light text-muted py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="img/share-section1.jpg" alt="explore" class="img-fluid mb-3 rounded-circle">
+    </div>
+    <div class="col-md-6">
+          <h3>Share what you create!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere impedit quo ducimus odit reiciendis saepe cumque a nesciunt cupiditate?</p>
+
+          <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis placeat nam obcaecati ducimus quae. Error.
+              </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis placeat nam obcaecati ducimus quae. Error.
+            </div>
+        </div>
+
+
+
+    </div>
+  </div>
+</div>
+</section>
+<!-- END SHARE section -->
+
+<!-- footer section -->
+
+<footer id="main-footer" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center py-4">
+      <h3>LOOPLAB</h3>
+      <p>Copyright &copy;<span id="year"></span></p>
+<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact us</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- end footer section -->
+
+<!-- CONTACT MODAL -->
+<div class="modal fade text-dark" id="contactModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">contact us</h5>
+        <button class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <form>
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="message">Name</label>
+                <textarea class="form-control"></textarea>
+              </div>
+          </form>
+        </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-primary btn-block">
+        Submit
+      </button>
+    </div>
+
+    </div>
+  </div>
+</div>
 
 
 
@@ -178,7 +335,29 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
-  </script>
+
+    //Init Scrollspy
+    $('body').scrollspy({target:'#main-nav'});
+  
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+
+</script>
+
 
 
 <div id="debug">
